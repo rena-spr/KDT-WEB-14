@@ -1,44 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML 기초</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>h1태그 입니다.</h1>
-    <H2>H2태크 입니다.</H2>
+    <h2>H2태크 입니다.</h2>
     <h3>h3태크 입니다.</h3>
     <h4>h4태크 입니다.</h4>
     <h5>h5태크 입니다.</h5>
     <h6>h6태크 입니다.</h6>
-    <p>본문입니다. <br>
-        두번째 줄입니다.  </p>
+    <p>
+      본문입니다. <br />
+      두번째 줄입니다.
+    </p>
     <ul type="square">
-        <li>사과</li>
-        <li>바나나</li>
-        <li>포도</li>
-        <li>감</li>
-        <li>사인머스켓</li>
-        <li>수박</li>
+      <li>사과</li>
+      <li>바나나</li>
+      <li>포도</li>
+      <li>감</li>
+      <li>사인머스켓</li>
+      <li>수박</li>
     </ul>
-<hr>
+    <hr />
     <ol type="A" start="5" reversed>
-        <li>사과</li>
-        <li>바나나</li>
-        <li>포도</li>
-        <li>감</li>
-        <li>사인머스켓</li>
-        <li>수박</li>
+      <li>사과</li>
+      <li>바나나</li>
+      <li>포도</li>
+      <li>감</li>
+      <li>사인머스켓</li>
+      <li>수박</li>
     </ol>
 
-    <b>굵게</b> <br>
-    <strong>굵게 + 의미도 강조</strong><br>
-    <i>이탤릭체</i><br>
-    <div><em>이탤릭체 + 강조 </em><br></div>
-    <del>중간줄(취소선)</del><br>
-    <u>밑줄</u><br>
+    <b>굵게</b> <br />
+    <strong>굵게 + 의미도 강조</strong><br />
+    <i>이탤릭체</i><br />
+    <div><em>이탤릭체 + 강조 </em><br /></div>
+    <del>중간줄(취소선)</del><br />
 
-    
-</body>
+    <table border="1" cellspacing="0" cellpadding="5" width="300" height="100">
+      <tr>
+        <th>이름</th>
+        <th>나이</th>
+        <th>전화번호</th>
+      </tr>
+      <tr>
+        <td>루나</td>
+        <td>100</td>
+        <td>010-2345-7890</td>
+      </tr>
+      <tr>
+        <td rowspan="2">홍길동</td>
+        <td colspan="2">70</td>
+      </tr>
+      <tr>
+        <td colspan="2">010-2345-7890</td>
+      </tr>
+    </table>
+
+    <br />
+    <a href="http://www.naver.com">네이버</a><br />
+    <a href="http://www.naver.com" target="_blank">네이버(새창)</a><br />
+    <a href="http://www.naver.com" target="_self">네이버(셀프)</a>
+
+    <!--상대경로-->
+    <img src="/01_html/00501111_20190121.jpg" alt="귀여운 강아지" />
+    <!--절대경로-->
+    <!-- <img
+      src="C:\Users\sprea\OneDrive\바탕 화면\github\KDT-WEB-14\01_html\00501111_20190121.jpg"
+      alt="귀여운 강아지"
+    /> -->
+  </body>
 </html>
