@@ -1,0 +1,25 @@
+/* font */
+@font-face {
+  font-family: "HakgyoansimPuzzleTTF-Outline";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimPuzzleTTF-Outline.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 4;
+  text-align: center;
+}
+
+.google {
+  font-family: "Protest Guerrilla", sans-serif;
+}
+
+.noon {
+  font-family: "HakgyoansimPuzzleTTF-Outline";
+}

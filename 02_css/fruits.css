@@ -1,0 +1,17 @@
+.fruits span:first-child {
+  color: red;
+}
+.fruits div:first-child {
+  color: yellowgreen;
+}
+.fruits h3:last-child {
+  color: blueviolet;
+}
+.stripes div:nth-child(2n + 1) {
+  background-color: rgb(11, 11, 85);
+  color: white;
+}
+.stripes div:nth-child(2n) {
+  background-color: yellow;
+  color: black;
+}
