@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+}
+
+.box2 {
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  border: 1px solid black;
+  background-color: lightblue;
+}
+
+.content-box {
+  box-sizing: content-box;
+}
+
+.border-box {
+  box-sizing: border-box;
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  border: 15px solid black;
+  background-color: orange;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  display: inline-block;
+}
+
+.d-none {
+  display: none;
+  background-color: red;
+}
+
+.invisible {
+  visibility: hidden;
+  background-color: orangered;
+}
+
+.opacity-0 {
+  opacity: 0;
+  background-color: tomato;
+}
+
+.opacity-0:hover {
+  opacity: 1;
+}
+
+.bulebox {
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  display: inline-block;
+}
+
+.opacity-1 {
+  opacity: 1;
+  background-color: blueviolet;
+}
+
+.opacity-1:hover {
+  opacity: 0;
+}
