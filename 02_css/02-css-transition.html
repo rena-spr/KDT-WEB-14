@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>transition</title>
+    <style>
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: black;
+        color: white;
+        overflow: auto;
+
+        transition: all 1s linear 0.5s;
+        /* transition-property: width, height;
+        transition-duration: 2s;
+        transition-timing-function: ease;
+        transition-delay: 1s; */
+      }
+      .box:hover {
+        width: 300px;
+        height: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="box"></div> -->
+
+    <div class="box">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptates
+      natus et exercitationem unde veniam aut quibusdam dolorem, repellat, quasi
+      labore, fugiat facere voluptatem est! Facere tenetur culpa magnam numquam!
+    </div>
+  </body>
+</html>
