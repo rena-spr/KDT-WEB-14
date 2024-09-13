@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>media query2</title>
+    <style>
+      div {
+        width: 100px;
+        height: 100px;
+        background-color: black;
+        border-radius: 5%;
+        margin: 4px;
+      }
+
+      @media screen and (min-width: 700px) {
+        div {
+          background-color: skyblue;
+          display: inline-block;
+        }
+      }
+
+      /*
+      @media item and (orientation: portrait) {
+        .item {
+          background-color: skyblue;
+        }
+      }
+
+      @media item and (min-width: 700px) {
+        .item {
+          background-color: skyblue;
+        }
+      } */
+    </style>
+  </head>
+  <body>
+    <!-- <div>more and less</div> -->
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>media query</title>
+    <style>
+      .all {
+        background-color: red;
+      }
+
+      @media all and (min-width: 300px) {
+        .all {
+          font-size: 2rem;
+          background-color: aqua;
+        }
+      }
+
+      @media print and (min-width: 300px) {
+        .print {
+          font-size: 2rem;
+        }
+      }
+
+      @media screen and (min-width: 300px) {
+        .screen {
+          font-size: 2rem;
+        }
+      }
+
+      @media (min-width: 300px) {
+        .no-media-type {
+          font-size: 2rem;
+        }
+      }
+
+      @media all {
+        .all {
+          font-size: 2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="all">all</div>
+    <div class="print">print</div>
+    <div class="screen">screen</div>
+    <div class="no-media-type">no-media-type</div>
+  </body>
+</html>
